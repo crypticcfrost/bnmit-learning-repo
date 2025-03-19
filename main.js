@@ -1,0 +1,1 @@
+console.log("This is the initial commit from Git Bash");
