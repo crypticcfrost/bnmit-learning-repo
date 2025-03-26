@@ -14,7 +14,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 print("We can also make the terminal seem fast moving and cool by shortening the delay . . .")
 time.sleep(4)
-print("\n\n\n\n")
+print("\n\n")
 print("Ready?")
 time.sleep(2)
 
@@ -41,4 +41,5 @@ for elements in arr:
     print()
 
 print("Looks cool doesn't it? Now we're gonna clear the terminal again.")
-time.sleep(4)
+time.sleep(5)
+os.system('cls' if os.name == 'nt' else 'clear')
