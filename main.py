@@ -17,10 +17,28 @@ time.sleep(4)
 print("\n\n\n\n")
 print("Ready?")
 time.sleep(2)
-arr = ["Permission denied? Challenge accepted.", "Decrypting payload...", "404: Ethics Not Found", "sudo rm -rf /world", "Brute forcing into system framework.."]
+
+import time
+import sys
+
+arr = [
+"Permission denied? Challenge accepted.",
+"Decrypting payload...",
+"404: Ethics Not Found",
+"sudo rm -rf /world",
+"Brute forcing into system framework.."
+]
+
 for elements in arr:
-    time.sleep(0.5)
-    print(elements)
+    sys.stdout.write(elements)
+    sys.stdout.flush()
+    
+    for _ in range(3):
+        time.sleep(0.5)
+        sys.stdout.write(".")
+        sys.stdout.flush()
+    
+    print()
 
 print("Looks cool doesn't it? Now we're gonna clear the terminal again.")
 time.sleep(4)
