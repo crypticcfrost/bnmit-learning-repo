@@ -11,3 +11,12 @@ for i in range(1, 11):
 print("Program ending, clearing terminal now . . .")
 time.sleep(2)
 os.system('cls' if os.name == 'nt' else 'clear')
+
+print("We can also make the terminal seem fast moving and cool by shortening the delay . . .")
+arr = ["Permission denied? Challenge accepted.", "Decrypting payload...", "404: Ethics Not Found", "sudo rm -rf /world", "Brute forcing into system framework.."]
+for elements in arr:
+    time.sleep(0.2)
+    print(elements)
+
+print("Looks cool doesn't it? Now we're gonna clear the terminal again.")
+time.sleep(4)
