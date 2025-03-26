@@ -8,4 +8,5 @@ os.system('cls' if os.name == 'nt' else 'clear')
 for i in range(1, 11):
     time.sleep(1)
     print(i)
-print("End of program")
+print("Program ending, clearing terminal now . . .")
+os.system('cls' if os.name == 'nt' else 'clear')
